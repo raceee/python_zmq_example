@@ -1,7 +1,7 @@
-client:
-  build: ./pythonclient
-  ports:
-    -"5555:5555"
+version: '3'
+services:
 
-message:
-  build: ./pythonmessagee
+  client:
+    build: ./pythonclient
+    ports:
+      - 5555:5555
