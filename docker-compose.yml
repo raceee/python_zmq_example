@@ -1,0 +1,7 @@
+client:
+  build: ./pythonclient
+  ports:
+    -"5555:5555"
+
+message:
+  build: ./pythonmessagee
